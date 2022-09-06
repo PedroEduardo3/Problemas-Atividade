@@ -1,0 +1,27 @@
+int a;
+int b;
+int c;
+Console.WriteLine("digite um valor");
+a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("digite um valor");
+b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("digite um valor");
+c = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"seus valores foram: {a},{b} e {c}");
+if (a == b && a == c)
+{
+    Console.WriteLine("os valores são iguais.");
+}
+if (a > b && a > c)
+{
+
+    Console.WriteLine($"{a} é o maior número.");
+}
+if (b > a && b > c)
+{
+    Console.WriteLine($"{b} é o maior número.");
+}
+else if (c > a && c > b)
+{
+    Console.WriteLine($"{c} é o maior número.");
+}
